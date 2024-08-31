@@ -4,8 +4,10 @@ from typing import Dict, Optional
 
 import torch
 from torch import nn, Tensor
+
 # https://scikit-learn.org/stable/modules/generated/sklearn.cluster.BisectingKMeans.html
 # https://scikit-learn.org/stable/modules/clustering.html#bisecting-k-means
+
 
 # 필드값 재정의
 @dataclass

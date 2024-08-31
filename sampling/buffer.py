@@ -6,10 +6,12 @@ from typing import List, Optional
 import torch
 from torch import nn, Tensor
 
+
 @dataclass
 class StoreCentroidsRequest:
     alive_centroids: List[Tensor] = None
     dead_centroids: List[Tensor] = None
+
 
 @dataclass
 class StoreQuerySamplesRequest:
